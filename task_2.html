@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    form
+    {
+        margin: auto ;
+        padding: 30px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        
+    }
+    input[type="number"]
+    {
+        width: 30px;
+
+    }
+</style>
+<body>
+    <h1>Conference Registration Form</h1>
+    <form action="#" method="post">
+
+        <label for="Name">Full Name:</label><br>
+        <input type="text"  id="Name" placeholder="Enter Your Full Name" required><br>
+
+        <label for="useremail">Email Address</label><br>
+        <input type="email" id="useremail" placeholder="Enter Your Email Address" required><br>
+
+        <label for="age">Age</label><br>
+        <input type="number" id="age" min="18" max="99" placeholder="18" required><br>
+
+        <br><label for="Gender">Gender</label><br>
+        <input type="radio" name="sex" id="Gender">male 
+        <br>
+        <input type="radio" name="sex" id="Gender">Female
+<br>
+        <br><label for="">Country of resident</label><br>
+        <br>
+
+        <select name="" id="">
+            <option value="Malaysia">Malaysia</option>
+            <option value="Somalia">Somalia</option>
+        </select>
+        <br><label for="AOI">Areas Of Interest </label><br>
+        <br><input type="checkbox" name="AOI" value="SD">Software Development
+        <br><input type="checkbox" name="AOI" value="DS">Data Science 
+        <br><input type="checkbox" name="AOI" value="Cyper">cybersecurity 
+        <br><input type="checkbox" name="AOI" value="AI">Artificial Intelligence
+        <br>
+
+
+        <br><label for="Exp">Experience Level</label><br>
+        <input type="radio" name="Exp" value="Beg">Beginner<br>
+        <input type="radio" name="Exp" value="inter">Intermediate<br>
+        <input type="radio" name="Exp" value="adv">Advance<br>
+
+        <br><label for="comment">Comments or Questions</label><br>
+        <textarea name="Q&A" id="" cols="40" rows="5" placeholder="Any Comments or Questions?"></textarea>
+        
+        <br><input type="submit"> 
+        <input type="reset">
+
+    </form>
+
+
+</body>
+</html>
